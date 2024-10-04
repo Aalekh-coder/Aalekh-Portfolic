@@ -19,7 +19,7 @@ const Home = () => {
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems} />
         <Hero />
-        <ContainerScroll titleComponent="Experiance & Skills" children={<PortFolio/>}/>
+        <ContainerScroll titleComponent="Experiance & Skills"><PortFolio/></ContainerScroll>
         <Grid />
         <RecentProjects />
         <Clients />
